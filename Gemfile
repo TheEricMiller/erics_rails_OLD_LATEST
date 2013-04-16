@@ -8,10 +8,16 @@ gem 'rails', '3.2.13'
 # ===~===~===~===~===~===~===~===~===~===
 # ALL ENVIRONMENTS:
 gem 'figaro'
+gem 'thin'
 
 # ===~===~===~===~===~===~===~===~===~===
 group :development do
   gem 'sqlite3'
+  gem 'quiet_assets'
+  gem 'better_errors'
+    gem 'binding_of_caller'
+  gem 'meta_request'  # http://goo.gl/7ToXW
+ 
 end
 # ===~===~===~===~===~===~===~===~===~===
 group :production do
@@ -50,7 +56,7 @@ gem 'jquery-rails'
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
