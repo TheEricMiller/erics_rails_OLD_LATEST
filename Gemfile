@@ -12,7 +12,7 @@ gem 'thin'
 
 # ===~===~===~===~===~===~===~===~===~===
 group :development do
-  gem 'sqlite3'
+  gem 'mysql2'
   gem 'quiet_assets'
   gem 'better_errors'
     gem 'binding_of_caller'
@@ -21,7 +21,7 @@ group :development do
 end
 # ===~===~===~===~===~===~===~===~===~===
 group :production do
-  gem 'sqlite3'
+  gem 'mysql2'
 end
 # ===~===~===~===~===~===~===~===~===~===
 group :test do
