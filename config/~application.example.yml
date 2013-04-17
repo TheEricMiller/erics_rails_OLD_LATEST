@@ -9,6 +9,13 @@ development:
   ACT_MAILER_SMTP_PORT: "1025"
 
 
+staging:
+  ACT_MAILER_HOST: "app-stage.herokuapp.com"
+  ACT_MAILER_SMTP_ADDRESS: "smtp.gmail.com"
+  ACT_MAILER_SMTP_USER_NAME: "USER@gmail.com"
+  ACT_MAILER_SMTP_PASSWORD: "PASS"
+
+
 production:
   ACT_MAILER_HOST: "app.herokuapp.com"
   ACT_MAILER_SMTP_ADDRESS: "smtp.gmail.com"
